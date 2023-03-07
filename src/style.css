@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'inter';
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    background-color: #F55A5A;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav--div{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.nav--text{
+    display: block;
+    margin: 0%;
+    margin-top: 3px;
+    margin-left: 4px;
+    color: #FFFFFF;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.nav--world {
+    display: flex;
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+}
+
+section {
+    padding: 20px;
+}
+.card--div{
+    padding-top: 30px;
+    width: auto;
+    font-size: 12px;
+    display: flex;          /* ADD */ 
+    position: relative;
+    overflow:hidden;
+}
+.glink{
+    position: relative;
+    bottom: 3px;
+    color: grey;
+}
+.card--div2{
+    width: auto;
+    font-size: 12px;
+    display: flex;          /* ADD */
+    flex-direction: row; /* ADD */
+    position: relative;
+}
+.card--info{
+    position: absolute;
+    left: 155px; /* x coordinate */
+    top: 50px; /* y coordinate */
+}
+.des{
+    white-space: pre-line;
+}
+.location{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.one--card{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+.cards-list {
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+/* .card {
+    width: auto;
+    font-size: 12px;
+    display: flex;          
+    flex-direction: row; 
+    position: relative;
+} */
+.loc--name{
+
+}
+
+.card--image {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
